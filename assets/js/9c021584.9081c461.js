@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocubro_website=self.webpackChunkdocubro_website||[]).push([[438],{8055:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/release","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

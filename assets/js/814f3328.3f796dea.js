@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocubro_website=self.webpackChunkdocubro_website||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Website Release","permalink":"/blog/website-release"}]}')}}]);

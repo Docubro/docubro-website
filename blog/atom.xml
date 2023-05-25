@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.docubro.com/blog</id>
+    <title>Docubro Blog</title>
+    <updated>2021-05-11T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.docubro.com/blog"/>
+    <subtitle>Docubro Blog</subtitle>
+    <icon>https://www.docubro.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Website Release]]></title>
+        <id>website-release</id>
+        <link href="https://www.docubro.com/blog/website-release"/>
+        <updated>2021-05-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello welcome everyone to the first blog post. We are here to help you make your documentation accesible.]]></summary>
+        <content type="html"><![CDATA[<p>Hello welcome everyone to the first blog post. We are here to help you make your documentation accesible.</p>]]></content>
+        <author>
+            <name>kanekotic</name>
+            <uri>https://github.com/kanekotic</uri>
+        </author>
+        <category label="release" term="release"/>
+    </entry>
+</feed>
