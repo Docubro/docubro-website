@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { Plan, PlanProps } from "pricing-table-react";
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -24,6 +25,44 @@ function HomepageHeader() {
   );
 }
 
+const plans: PlanProps[] = [
+  {
+    href: "https://notionforms.io/forms/docubro-xmtjms",
+    price: "20",
+    title: "Team Plan",
+    advantages: [
+      {
+        text: "Shared cluster",
+      },
+      {
+        text: "Forum support",
+      },
+    ],
+    duration: "month",
+    guarantee: "7 days trial + 14 money back guarantee",
+    titleDescription: "Individual and small teams",
+  },
+  {
+    href: "https://notionforms.io/forms/docubro-xmtjms",
+    price: "70",
+    title: "Enterprise Plan",
+    advantages: [
+      {
+        text: "Dedicated cluster",
+      },
+      {
+        text: "Faster response",
+      },
+      {
+        text: "Developer support",
+      },
+    ],
+    duration: "month",
+    guarantee: "7 days trial + 14 money back guarantee",
+    titleDescription: "Enterprise and high volume projects",
+  },
+];
+
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -33,6 +72,9 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <>
+        <Plan Plans={plans} Currency={'€'} BackColor={'#a5346f'}/>;
+        </>
       </main>
     </Layout>
   );
