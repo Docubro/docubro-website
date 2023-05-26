@@ -132,6 +132,13 @@ const config = {
         theme: lightCodeTheme,
       },
     }),
+    scripts: [
+      
+      {
+        src: `/js/chatbot.js`,
+        type: "module",
+      },
+    ]
 };
 
 module.exports = config;
